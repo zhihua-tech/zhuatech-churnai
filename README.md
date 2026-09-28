@@ -1,5 +1,7 @@
 # 知华客户流失预警 AI · ZhuaTech ChurnAI
 
+[简体中文](README.md) | [English](README.en.md)
+
 客户流失不是一个分数，而是一组需要被看见、解释和跟进的经营信号。
 
 [官网](https://www.zhuatech.cn/) · [API](docs/api.md) · [架构](docs/architecture.md) · [部署](deploy/README.md) · [许可](LICENSE)
