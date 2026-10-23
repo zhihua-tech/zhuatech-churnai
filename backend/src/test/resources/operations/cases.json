@@ -1,0 +1,64 @@
+[
+  {
+    "patch": {},
+    "expected": {
+      "decision": "PASS",
+      "netContribution": "#20200"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "campaignCost": "5201"
+    },
+    "expected": {
+      "decision": "HOLD",
+      "netContribution": "#19999"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "retainedPct": "0"
+    },
+    "expected": {
+      "decision": "HOLD",
+      "contributionPct": "N/A"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "discountPct": "100"
+    },
+    "expected": {
+      "discountedRevenue": "#0"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "serviceCostPct": "100"
+    },
+    "expected": {
+      "netContribution": "#-5000"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "retainedPct": "101"
+    },
+    "expected": {},
+    "error": true
+  },
+  {
+    "patch": {
+      "minimumContribution": "20200"
+    },
+    "expected": {
+      "decision": "PASS"
+    },
+    "error": false
+  }
+]
